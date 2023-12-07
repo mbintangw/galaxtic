@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GALAXTIC</title>
+    <link rel="stylesheet" href="assets/style/app.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <!-- Navigation Bar -->
+    <header>
+      <div class="navbar-container">
+        <div class="logo">
+          <h1>GALAXTIC</h1>
+        </div>
+        <nav class="nav-list">
+          <ul>
+            <li><a href="#homepage">Beranda</a></li>
+            <li class="dropdown">
+              <a class="dropbtn">Planet</a>
+              <div class="dropdown-content">
+                <button onclick="scrollToElement('mercury')">Mercury</button>
+                <button onclick="scrollToElement('venus')">Venus</button>
+                <button onclick="scrollToElement('earth')">Earth</button>
+                <button onclick="scrollToElement('mars')">Mars</button>
+                <button onclick="scrollToElement('jupiter')">Jupiter</button>
+                <button onclick="scrollToElement('saturn')">Saturn</button>
+                <button onclick="scrollToElement('uranus')">Uranus</button>
+                <button onclick="scrollToElement('neptune')">Neptune</button>
+              </div>
+            </li>
+          </ul>
+        </nav>
+        <img
+          src="assets/image/menu-btn.png"
+          alt="menu harmburger"
+          class="menu-hamburger"
+        />
+      </div>
+
+      <div class="homepage-content" id="homepage">
+        <div class="content-description">
+          <h1 class="title">Mengenal Nama Nama Planet</h1>
+          <p>
+            Planet adalah salah satu bagian tata surya yang memiliki peran
+            sangat penting. Tidak hanya sebagai bagian dari tata surya saja,
+            tetapi planet juga bisa dijadikan tempat tinggal sebuah makhluk.
+            Meskipun tidak semua planet dapat dijadikan tempat tinggal
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Konten artikel -->
+      <div id="content">
+        <article id="mercury" class="card">
+          <img
+            src="assets/image/mercury.gif"
+            alt="mercury"
+            class="featured-image"
+          />
+          <div>
+            <h2>Mercury</h2>
+            <p>
+              Merkurius merupakan planet terkecil di tata surya. Planet yang
+              berjarak 57,9 juta km dari Matahari ini memiliki jari-jari sekitar
+              2.4739 km. Merkurius terdiri dari 70% logam dan 30% silikat.
+            </p>
+          </div>
+        </article>
+
+        <article id="venus" class="card">
+          <img
+            src="assets/image/venus.gif"
+            alt="venus"
+            class="featured-image"
+          />
+          <div>
+            <h2>Venus</h2>
+            <p>
+              Planet yang bertetangga dengan Bumi. Venus berjarak 108 juta km
+              dari Matahari dan memiliki jari-jari sekitar 6.052 km.
+            </p>
+          </div>
+        </article>
+
+        <article id="earth" class="card">
+          <img
+            src="assets/image/earth.gif"
+            alt="earth"
+            class="featured-image"
+          />
+          <div>
+            <h2>Earth</h2>
+            <p>
+              Satu-satunya planet di tata surya yang bisa dihuni manusia. Bumi
+              berjarak 150 juta km dari Matahari dan berjari-jari 6.371 km.
+            </p>
+          </div>
+        </article>
+        <article id="mars" class="card">
+          <img src="assets/image/mars.gif" alt="mars" class="featured-image" />
+          <div>
+            <h2>Mars</h2>
+            <p>
+              Mars dijuluki sebagai Planet Merah. Kalau dilihat dari urutan
+              jarak dari Matahari, Mars adalah planet keempat di tata surya.
+              Planet ini memiliki jari-jari sekitar 3.390 ini berjarak 228 juta
+              km dari Matahari.
+            </p>
+          </div>
+        </article>
+        <article id="jupiter" class="card">
+          <img
+            src="assets/image/jupiter.gif"
+            alt="jupiter"
+            class="featured-image"
+          />
+          <div>
+            <h2>Jupiter</h2>
+            <p>
+              Planet Jupiter adalah planet terbesar di tata surya. Planet
+              Jupiter punya jari-jari seluas 69.911 km dan berjarak 778,3 juta
+              km dari Matahari.
+            </p>
+          </div>
+        </article>
+        <article id="saturn" class="card">
+          <img
+            src="assets/image/saturn.gif"
+            alt="saturn"
+            class="featured-image"
+          />
+          <div>
+            <h2>Saturn</h2>
+            <p>
+              Panet Saturnus punya cincin yang terdiri dari bongkahan es
+              meteroit. Planet ini memiliki jari-jari 58.232 km dan berjarak
+              1.430 juta km dari Matahari.
+            </p>
+          </div>
+        </article>
+        <article id="uranus" class="card">
+          <img
+            src="assets/image/uranus.gif"
+            alt="uranus"
+            class="featured-image"
+          />
+          <div>
+            <h2>Uranus</h2>
+            <p>
+              Planet berwarna biru ini sering sering disebut juga sebagai planet
+              es raksasa. Planet Uranus punya jari-jari yang luasnya sekitar
+              25.362 km dan berjarak 2.880 juta km dari Matahari.
+            </p>
+          </div>
+        </article>
+        <article id="neptune" class="card">
+          <img
+            src="assets/image/neptune.gif"
+            alt="neptune"
+            class="featured-image"
+          />
+          <div>
+            <h2>Neptune</h2>
+            <p>
+              Planet yang punya jarak terjauh dari Matahari ini punya bentuk
+              yang mirip dengan Bulan. Neptunus memiliki jari-jari 24.622 km dan
+              berjarak 4.500 juta km dari Matahri.
+            </p>
+          </div>
+        </article>
+      </div>
+      <aside>
+        <div class="aside-card">
+          <h2>Galaxy</h2>
+          <img src="assets/image/galaksi.png" alt="galaksi" class="aside-img" />
+          <div>
+            <p>
+              Galaksi adalah sebuah sistem bintang dengan ukuran yang sangat
+              besar, susunan terdiri dari bintang-bintang dan jumlahnya tak
+              terhitung. Bintang-bintang yang ada juga terdapat beberapa jenis,
+              bisa berupa bintang hingga gugus bintang. Selain itu juga terdapat
+              planet, cluster, asteroid, nebula, komet hingga debu-debu kosmik
+              dan gas
+            </p>
+          </div>
+        </div>
+      </aside>
+    </main>
+    <footer>
+      <div class="profile">
+        <img src="/assets/image/pp.jpg" alt="profile" class="profile-img" />
+        <div>
+          <h1>Mohammad Bintang Wicaksono | 2023</h1>
+          <p>Programmer</p>
+        </div>
+      </div>
+      <div>
+        <div class="sosmed">
+          <a href="#www.linkedin.com/in/mbintangw"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+
+  <script>
+    const menuHamburger = document.querySelector(".menu-hamburger");
+    const navlist = document.querySelector(".nav-list");
+
+    menuHamburger.addEventListener("click", () => {
+      navlist.classList.toggle("mobile-menu");
+    });
+
+    function scrollToElement(elementId) {
+      var element = document.getElementById(elementId);
+      if (element) {
+        var offset = element.offsetTop - window.innerHeight / 2;
+        window.scrollTo({
+          top: offset,
+          behavior: "smooth",
+        });
+      }
+    }
+  </script>
+</html>
